@@ -116,8 +116,6 @@ echo -e "Link NTLS     : ${ss2022link2}" | tee -a /user/log-ss2022-$user.txt
 echo -e "————————————————————————————————————————————————————" | tee -a /user/log-ss2022-$user.txt
 echo -e "Link gRPC     : ${ss2022link3}" | tee -a /user/log-ss2022-$user.txt
 echo -e "————————————————————————————————————————————————————" | tee -a /user/log-ss2022-$user.txt
-echo -e "Format Clash  : http://$domain:8000/shadowsocks2022/shadowsocks2022-$user.txt" | tee -a /user/log-ss2022-$user.txt
-echo -e "————————————————————————————————————————————————————" | tee -a /user/log-ss2022-$user.txt
 echo -e "Expired On    : $exp" | tee -a /user/log-ss2022-$user.txt
 echo -e "————————————————————————————————————————————————————" | tee -a /user/log-ss2022-$user.txt
 echo " " | tee -a /user/log-ss2022-$user.txt

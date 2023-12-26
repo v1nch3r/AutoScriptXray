@@ -151,8 +151,6 @@ echo -e "Link NTLS     : $vmesslink2" | tee -a /user/log-vmess-$user.txt
 echo -e "————————————————————————————————————————————————————" | tee -a /user/log-vmess-$user.txt
 echo -e "Link gRPC     : $vmesslink3" | tee -a /user/log-vmess-$user.txt
 echo -e "————————————————————————————————————————————————————" | tee -a /user/log-vmess-$user.txt
-echo -e "Format Clash  : http://$domain:8000/vmess/vmess-$user.txt" | tee -a /user/log-vmess-$user.txt
-echo -e "————————————————————————————————————————————————————" | tee -a /user/log-vmess-$user.txt
 echo -e "Expired On    : $exp" | tee -a /user/log-vmess-$user.txt
 echo -e "————————————————————————————————————————————————————" | tee -a /user/log-vmess-$user.txt
 echo " " | tee -a /user/log-vmess-$user.txt
